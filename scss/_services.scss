@@ -1,11 +1,10 @@
-// Styling for the services section
-.service-box {
-  max-width: 400px;
-  margin: 50px auto 0;
-  @media (min-width: 992px) {
-    margin: 20px auto 0;
-  }
-  p {
-    margin-bottom: 0;
-  }
+.service-icon {
+  background-color: $white;
+  color: $primary;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
